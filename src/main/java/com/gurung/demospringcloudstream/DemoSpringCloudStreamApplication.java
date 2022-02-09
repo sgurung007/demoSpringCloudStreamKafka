@@ -15,7 +15,12 @@ public class DemoSpringCloudStreamApplication {
 
     @Bean
     Function<String,String> upperCase(){
-        return String::toUpperCase;
+        return r->{
+            System.out.println("message from topic: "+r);
+            r=r.toUpperCase();
+            System.out.println("returning to the topic: "+r);
+            return r;
+        };
     }
 
 }
