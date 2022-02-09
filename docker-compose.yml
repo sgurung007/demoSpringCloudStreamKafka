@@ -33,3 +33,7 @@ services:
 
 #command to subscribe message to the topic
 #docker exec --interactive --tty broker kafka-console-consumer --bootstrap-server broker:9092 --topic upperCase-out-0
+
+
+#youtube link
+#https://www.youtube.com/watch?v=5Mgni6AYnWg&list=RDCMUC7yfnfvEUlXUIfm8rGLwZdA&start_radio=1&rv=5Mgni6AYnWg&t=23
