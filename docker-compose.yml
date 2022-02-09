@@ -28,6 +28,9 @@ services:
 #docker-compose -f docker-compose.yml up -d
 #https://developer.confluent.io/quickstart/kafka-docker/
 
+#command to create the topic
+#docker exec broker kafka-topics --bootstrap-server broker:9092 --create --topic <topic name>
+
 #command to publish message to the topic
 #docker exec --interactive --tty broker kafka-console-producer --bootstrap-server broker:9092 --topic upperCase-in-0
 
